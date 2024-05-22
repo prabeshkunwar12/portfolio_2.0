@@ -11,9 +11,9 @@ const Navbar = () => {
     const { setTheme, resolvedTheme } = useTheme()
     console.log(resolvedTheme)
     return (
-        <nav className="sticky z-[100] h-14 inset-x-0 top-0 w-full border-b border-gray-200 bg-white/75 backdrop-blur-lg transition-all">
+        <nav className="sticky z-[100] h-14 inset-x-0 top-0 w-full border-b border-gray-200 bg-background/75 dark:bg-background/75 dark:border-gray-700 backdrop-blur-lg transition-all">
             <MaxWidthWrapper>
-                <div className="flex h-14 items-center justify-between border-b border-zinc-200">
+                <div className="flex h-14 items-center justify-between border-b border-zinc-200 dark:border-zinc-700">
                     <div className="flex items-center gap-x-6">
                         <Link href="/" className="flex z-40 font-semibold text-blue-600">
                             {"<"}<span className="text-green-600">PrabeshNarsinghKunwar</span>&nbsp;{"/>"}
