@@ -36,6 +36,15 @@ const config = {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
         },
+        primaryCode: {
+          DEFAULT: "var(--primary-code)"
+        },
+        secondaryCode: {
+          DEFAULT: "var(--secondary-code)"
+        },
+        neutralCode: {
+          DEFAULT: "var(--neutral-code)"
+        },
         muted: {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",

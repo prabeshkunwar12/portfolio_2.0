@@ -20,8 +20,8 @@ const Navbar = () => {
         <nav className="sticky z-[100] h-14 inset-x-0 top-0 w-full border-b border-zinc-200 bg-background/75  dark:border-zinc-700 backdrop-blur-lg transition-all">
             <MaxWidthWrapper className="flex items-center justify-between">
                 <div className="flex items-center gap-x-6">
-                    <Link href="/" className="flex z-40 font-semibold text-blue-600">
-                        {"<"}<span className="text-green-600 dark:text-green-300">PrabeshNarsinghKunwar</span>&nbsp;{"/>"}
+                    <Link href="/" className="flex z-40 font-semibold text-primaryCode">
+                        {"<"}<span className="text-secondaryCode">PrabeshNarsinghKunwar</span>&nbsp;{"/>"}
                     </Link>
                     <ul className="hidden lg:flex items-center gap-x-2">
                         {navLinks.map((link) => (
