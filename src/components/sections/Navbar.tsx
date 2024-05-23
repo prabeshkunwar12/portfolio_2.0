@@ -17,7 +17,7 @@ const Navbar = () => {
     }, [resolvedTheme])
 
     return (
-        <nav className="sticky z-[100] h-14 inset-x-0 top-0 w-full border-b border-zinc-200 bg-background/75 dark:bg-background/75 dark:border-zinc-700 backdrop-blur-lg transition-all">
+        <nav className="sticky z-[100] h-14 inset-x-0 top-0 w-full border-b border-zinc-200 bg-background/75  dark:border-zinc-700 backdrop-blur-lg transition-all">
             <MaxWidthWrapper className="flex items-center justify-between">
                 <div className="flex items-center gap-x-6">
                     <Link href="/" className="flex z-40 font-semibold text-blue-600">
@@ -39,7 +39,7 @@ const Navbar = () => {
                         ))}
                     </ul>
                 </div>
-                <ul className="hidden lg:flex">
+                <ul className="hidden sm:flex">
                     <li>
                         <Link 
                             className={buttonVariants({
